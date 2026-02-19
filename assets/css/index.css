@@ -1,0 +1,45 @@
+body {
+    background-color: darkgray;
+}
+
+.sub--yellow {
+    font-size: 20px;
+    color: yellow;
+}
+
+.sub--roxo {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.titulo{
+    font-size: 25px;
+    color:blue
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: 25px;
+    color: brown;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.midia img{
+    width: 300px;
+    height: auto;
+}
+
+.midia video {
+    width: 300px;
+    height: auto;
+}

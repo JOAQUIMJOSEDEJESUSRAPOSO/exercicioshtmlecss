@@ -1,0 +1,26 @@
+
+
+Temos DUAS categorias de unidade de medidas:
+1-Unidades absolutas.
+2-Unidades relativas.
+UNIDADES ABSOLUTAS:
+São fixas, ou seja, não mudam de acordo com o tamanho da tela ou do elemento.
+Ideal quando você quer controle exato, mas não é tão responsivo.
+As mais usadas são:
+px - pixels (a mais comum),
+cm -centímetros,
+mm - milímetros,
+in -polegadas,
+pt - pontos (pt - pontos
+Muito usado em impressão) (print)
+1pt - 1/72 de uma polegada
+Não é recomendado para web, pois não é responsivo e pode variar conforme o dispositivo
+pc - picas.
+UNIDADES RELATIVAS:
+São flexíveis e se adaptam ao tamanho da tela, do elemento pai ou da fonte.
+As mais usadas são:
+% - porcentagem
+em -relativo ao elemento pai
+rem - relativo ao elemento raiz (html)
+vw -largura da tela (viewport width)
+vh - altura da tela (viewport height)

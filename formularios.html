@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+
+    <body>
+
+        <h1>Formulário</h1> <br />
+
+        <form action="/login" method="POST">
+
+            <input type="text" placeholder="Insira seu nome" name="nome" />
+
+            <input type="number" name="idade" placeholder="Idade" min="0" max="120"/>
+
+            <input type="tel" name="telefone" placeholder="Digite seu telefone" />
+
+            <br/>
+
+            <input type="submit" value="Enviar" />
+
+        </form>
+
+        <br/><br/>
+
+        <form action="/avaliacoes" method="GET">
+
+            <textarea name="avaliação">
+                
+            </textarea>
+
+            <input type="date" name="date">
+
+        </form>
+
+        <br/><br/>
+
+        <form action="/email&senha" method="GET">
+
+            <input type="email" name="email" required placeholder="Email"/>
+
+            <br/><br/>
+
+            <input type="password" name="password" required placeholder="Password" minlength="3"/>
+
+            <br/><br/>
+
+            <input type="submit" value="Entrar"/>
+
+        </form>
+        
+
+        <br/><br/>
+
+        <form action="/pesquisa" method="GET">
+
+            <input type="search" name="pesquisa" placeholder="Pesquise aqui"/>
+
+        </form>
+
+    </body>
+
+</html>
